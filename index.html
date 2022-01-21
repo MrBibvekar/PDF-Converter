@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JPG to PDF Converter</title>
+	<link rel="stylesheet" type="text/css" href="converter.css">
+	<!-- <style>
+		h1{background-color:  #1A3D71; color: white;}
+		mark{background-color: #fde64b; } 
+       
+            
+	</style> -->
+	<p>JPG  to  PDF  Converter</p>
+	<h2 text align="center"> <mark>The Best Way To Convert Your Image In PDF</mark></h2>
+</head>
+	<div class="flex">
+		<div class="img-upload">
+			<img class="image row"src="jpg1.jpg">
+			<button class="btn" onclick="document.getElementById('imageFile').click()">Upload your image here</button>
+			<input type="file" id="imageFile" title="upload">
+		</div>
+		<button id="button" class="convert">CONVERT</button>
+		<img class="vertical"src="pdf2.jpg">	
+	</div>
+	<canvas class="canvas" id="canvas"></canvas>
+</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js" integrity="sha512-ToRWKKOvhBSS8EtqSflysM/S7v9bB9V0X3B1+E7xo7XZBEZCPL3VX5SFIp8zxY19r7Sz0svqQVbAOx+QcLQSAQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.0/html2canvas.min.js" integrity="sha512-UcDEnmFoMh0dYHu0wGsf5SKB7z7i5j3GuXHCnb3i4s44hfctoLihr896bxM0zL7jGkcHQXXrJsFIL62ehtd6yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" integrity="sha512-s/XK4vYVXTGeUSv4bRPOuxSDmDlTedEpMEcAQk0t/FMd9V6ft8iXdwSBxV0eD60c6w/tjotSlKu9J2AAW1ckTA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/app.js"></script>
+</html>
